@@ -21,7 +21,7 @@ function Cart(){
   <path d="M11.6666 9.16667V14.1667" stroke="#B6B6B6" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   
-                  <span>Очистить корзину</span>
+                  <span>Clear items</span>
                 </div>
               </div>
               <div class="content__items">
