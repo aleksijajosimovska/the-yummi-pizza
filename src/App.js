@@ -6,14 +6,14 @@ import { Home, Cart, FinishOrder } from '../src/pages';
 
 
 function App() {
-  const[ isFetching, setIsFetching ] = useState(true)
+  
 
   useEffect(() => {
     const fetchData = async () => {
       const result = await fetch(process.env.REACT_APP_API_ENDPOINT)
     .then(res => res.json());
   
-  setIsFetching(false)
+ console.log(result)
 };
 
 fetchData();
