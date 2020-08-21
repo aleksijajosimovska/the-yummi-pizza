@@ -39,7 +39,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
@@ -72,7 +72,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
@@ -105,7 +105,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
@@ -138,7 +138,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
@@ -171,7 +171,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
@@ -204,7 +204,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
@@ -237,7 +237,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
@@ -270,7 +270,7 @@ alt="Pizza"
     fill="white"
   />
 </svg>
-<span>Order now</span>
+<span>Add to cart</span>
 
 </div>
 </div>
