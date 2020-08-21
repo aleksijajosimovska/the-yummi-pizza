@@ -1,19 +1,22 @@
 import React from 'react';
-import logo from '../pizza.svg';
-import { Link } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
 import Button from './Button'
+import logo from '../pizza.svg';
 
 
 function Header() {
   return (<div className="header">
   <div className="container">
+  <Link to="/">
     <div className="header__logo">
       <img width="90" src={logo} alt="Pizza" />
       <div>
+      <Route path="/" exact>
         <h1>The Yummi Pizza</h1>
+      </Route>
       </div>
     </div>
-    
+    </Link>
     <div className="header__cart">
     <Link to="/cart">
       <Button className="button button--cart">
@@ -48,8 +51,7 @@ function Header() {
             stroke-linejoin="round"
           />
         </svg>
-        
-      </Button>
+        </Button>
       </Link>
     </div>
   </div>
