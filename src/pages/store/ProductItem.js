@@ -16,9 +16,10 @@ const ProductItem = ({product}) => {
             <img style={{display: "block", margin: "0 auto 10px", maxHeight: "150px"}} className="img-fluid" 
             src={product.photo + '?v=' + product.id} alt=""/>
             <p>{product.name}</p>
+            <p>{product.description}</p>
             <h3 className="text-left">{formatNumber(product.price)}</h3>
             <div className="text-right">
-                <Link  to="/" className="btn btn-link btn-sm mr-2">Details</Link>
+                <Link  to="/" className="btn btn-link btn-sm mr-2">Description</Link>
 
                 {
                     isInCart(product) && 

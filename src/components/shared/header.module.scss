@@ -1,14 +1,20 @@
 .header {
     padding: 10px;
-    text-align: center;
+    background-color:rgb(148, 2, 2);
+    text-align: right;
+    
 
     a {
         display: inline-block;
         margin-right: 10px;
         padding: 5px 10px;
+        color:white;
+        
+        
         svg {
             width: 18px;
             margin-right: 5px;
         }
     }
+    a:hover{color:rgb(243, 209, 210); text-decoration: none; }
 }
