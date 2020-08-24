@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import Routes from './routes';
 
-import './index.scss'
 
-import App from './App';
-
+import { HelmetProvider } from 'react-helmet-async';
+import ProductsContextProvider from './contexts/ProductsContext';
+import CartContextProvider from './contexts/CartContext';
 
 ReactDOM.render(
-  <React.StrictMode>
-   <BrowserRouter>
-   <Route path="/" component={App} />
-   </BrowserRouter>
-  </React.StrictMode>,
+    <HelmetProvider>
+      <ProductsContextProvider>
+        <CartContextProvider>
+          <Routes />
+        </CartContextProvider>
+      </ProductsContextProvider>
+    </HelmetProvider>,
   document.getElementById('root')
 );
 
