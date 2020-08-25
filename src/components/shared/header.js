@@ -10,7 +10,7 @@ const Header = () => {
 
     return ( 
         <header className={styles.header}>
-            <Link to='/'>Menu</Link>
+            <Link to='/'>Pizza Menu</Link>
             <Link to='/cart'> <CartIcon/>Shopping Cart ({itemCount})</Link>
         </header>
      );

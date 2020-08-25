@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Store from '../pages/store';
-
+import Succesful from '../pages/Succesful';
 import NotFound from '../pages/NotFound';
 import Cart from "../pages/cart";
 
@@ -28,6 +28,7 @@ fetchData();
         <Switch>
           <Route exact path="/" component={Store}/>
           <Route path="/cart" component={Cart} />
+          <Route path="/succesful" component={Succesful} />
           <Route path="*" component={NotFound} />
         </Switch>
     </Router>
